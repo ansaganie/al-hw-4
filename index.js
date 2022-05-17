@@ -72,7 +72,7 @@ class Calculator {
 
   logDiv() {
     if (this.#y === 0) {
-      throw new Error('Number can not be divided by zero')
+      throw new Error('Number can not be divided by zero');
     }
 
     console.log(this.#x / this.#y);
